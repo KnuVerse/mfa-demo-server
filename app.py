@@ -99,7 +99,6 @@ def auth2():
 <script src="https://cloud.knuverse.com/verifyme/js/knuverse_agent.js">
 </script>
 <script>
-KnuVerse.configure();
 var params = {token: '%s'};
 var callBackFunction = function(data) {
     console.log(data.token);
