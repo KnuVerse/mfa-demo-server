@@ -147,7 +147,7 @@ var enrollmentCallBackFunction = function(data) {
 };
 </script>
 <p>MFA Challenge</p>
-    <form name=submitform onsubmit="return startVerification();" method="post">
+<form name=submitform onsubmit="return startVerification();" method="post">
     <input type=hidden name="username" value="%s"/>
     <input type=hidden name="token" id="token"/>
     <input type=hidden name="vid" id="vid"/>
